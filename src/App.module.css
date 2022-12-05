@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    /* height: 100vh; */
+    background: #e7e7e7;
+}
+
+.form input,
+textarea {
+    border-radius: 15px;
+    padding: 0.8rem 1rem;
+    outline: none;
+    border: none;
+    margin: 0.5rem;
+    width: 30%;
+}
+
+/* #colorPicker {
+    height: 30px !important;
+    width: 30px;
+} */
+
+input[type="color"] {
+    -webkit-appearance: none;
+    border: none;
+    height: 4rem;
+}
+
+.radioInput {}
+
+.checkbox,
+.radioInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
